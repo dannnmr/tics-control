@@ -48,7 +48,7 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
   };
 
   const handleShare = () => {
-    const shareUrl = window.location.href; // Obtiene la URL actual
+    const shareUrl = "https://tics-control.vercel.app/"; // Obtiene la URL actual
     const message = `¡Mira este producto increíble! ${title} - ${description}. Puedes verlo aquí: ${shareUrl}`;
     const whatsappUrl = `https://wa.me/59168183484?text=${encodeURIComponent(
       message
